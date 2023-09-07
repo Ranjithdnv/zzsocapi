@@ -7,7 +7,7 @@ const multer = require("multer");
 const bodyParser = require("body-parser");
 const path = require("path");
 app.use(
-  cors("")
+  cors("https://zzsoc.onrender.com")
   // "https://future-together.onrender.com"
 );
 app.use(express.json());
